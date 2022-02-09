@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hristijan Slavkoski Hangman</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="picture">
+              <div><img id="hangedPicture" src="HANGMANEMPTY.png" alt="Hang body"></div>
+            </div>
+            
+            <div id="text">
+                <div id="infoAboutGame">
+                  <div id="textAboutGame">
+                      Good luck with the HANGMAN game. You can guess the word by pressing 
+                      buttons on your keyboard or you can click with your mouse on our "keyboard". <br>
+                      <span style="color: red">BE CAREFUL</span>, you only have 6 guesses
+                  </div>
+                    <div id="restartGame" style="display:none;"><button id="restartGameButton" type="button">RESTART GAME</button></div>
+                </div>
+              <div id="word">
+                
+              </div>
+              <div id="keyboard">
+
+              </div>
+            </div>
+
+          </div>
+        <script src="script.js"></script>
+    </body>
+</html>
